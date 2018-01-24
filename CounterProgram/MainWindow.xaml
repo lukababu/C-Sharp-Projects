@@ -1,0 +1,18 @@
+﻿<Window x:Class="CounterProgram.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CounterProgram"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="title" Content="Counter Program" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="countLabel" Content="0" HorizontalAlignment="Left" Margin="110,95,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="incButton" Content="+" HorizontalAlignment="Left" Margin="169,126,0,0" VerticalAlignment="Top" Width="35"/>
+        <Button x:Name="decButton" Content="-" HorizontalAlignment="Left" Margin="110,126,0,0" VerticalAlignment="Top" Width="35"/>
+        <Button x:Name="startTimer" Content="Start" HorizontalAlignment="Left" Margin="110,161,0,0" VerticalAlignment="Top" Width="35"/>
+        <Button x:Name="stopTimer" Content="Stop" HorizontalAlignment="Left" Margin="169,161,0,0" VerticalAlignment="Top" Width="35" Click="stopTimer_Click"/>
+
+    </Grid>
+</Window>
