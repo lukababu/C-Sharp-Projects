@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterProgram", "CounterProgram\CounterProgram.csproj", "{F1613D06-78C9-4544-A6B8-2729B0B7CE6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{141C8746-3902-48FA-A30F-2CC082CA3CCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F1613D06-78C9-4544-A6B8-2729B0B7CE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1613D06-78C9-4544-A6B8-2729B0B7CE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1613D06-78C9-4544-A6B8-2729B0B7CE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141C8746-3902-48FA-A30F-2CC082CA3CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141C8746-3902-48FA-A30F-2CC082CA3CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141C8746-3902-48FA-A30F-2CC082CA3CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141C8746-3902-48FA-A30F-2CC082CA3CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
